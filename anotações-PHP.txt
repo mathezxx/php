@@ -1,0 +1,85 @@
+Tags PHP em HTML 
+- tag padrão: <?php echo 'alguma coisa' ?>
+
+- tag de impressão: <?= 'alguma coisa' ?>
+
+- tag curta: <? echo 'alguma coisa' ?>
+
+______________________________________________________________________________________________________________________________________
+
+Echo e Print em PHP
+
+Echo e print tem basicamente as mesmas funções no PHP que serve para imprimir uma mensagem na tela
+
+______________________________________________________________________________________________________________________________________
+Diferença entre páginas estáticas e páginas dinâmicas
+
+- páginas estáticas: são arquivos HTML com codificação hardcode em que o servidor HTTP recupera a requisição e devolve um qrquivo sem
+  fazer tratativa.
+
+- páginas dinâmicas: são páginas produzidas em intervalos entre a requisição (request) e a resposta (response) que é recebida e devolvida
+  pelo servidor HTTP (apache) e durante esse intervalo pode haver uma linguagem de interpretação capaz de receber a requisição processar
+  algum script, formar uma página web dinamica, devolver a página para o apache para que o apache faça a ponte entre o cliente que fez a
+  requisoção. No caso em que estou estudando a linguaguem é o PHP e o servidor Apache, poderia também ser o JS e o servidor nodeJS.
+
+______________________________________________________________________________________________________________________________________
+Funções nativas para manipular string
+ 
+strtolower($texto) -> Transforma todos os caracteres da string em minúsculos.
+
+strtoupper($texto) -> Transforma todos os caracteres da string em maiúsculos.
+
+ucfirst($texto) -> Transforma o primeiro caractere da string em maiúsculo.
+
+strlen($texto) -> Conta a quantidade de caracteres de uma string.
+
+str_replace(<procura_por>, <substitui_por>, $texto) -> Substitui uma cadeia de caracteres por outra dentro de uma string.
+
+substr($texto, <posicao_inicial>, <qtd_caractere>) -> Retorna parte de uma string.
+
+______________________________________________________________________________________________________________________________________
+Funções nativas para tarefas matemáticas
+
+ceil($numero) -> Arredonda o valor para cima.
+
+floor($numero) -> Arredonda o valor para baixo.
+
+round($numero) -> Arredonda o valor com base nas casas decimais.
+
+rand() -> Gera um inteiro aleatorio.
+
+sqrt($numero) -> Retorna a raiz quadrada.
+
+______________________________________________________________________________________________________________________________________
+Funções nativas para manipular datas
+
+date(formato) -> Recuperar a data atual.
+
+date_default_timezone_get(timezone) -> Recuperar o timezone default da aplicação.
+
+date_default_timezone_set(timezone) -> Atualizar a timezone default da aplicação.
+
+strtotime(data) -> Transformar datas textuais em segundos. Essa função retorna o valor em segundos no PHP. 
+
+______________________________________________________________________________________________________________________________________
+Funções nativas para manipular arrays
+
+is_array(array) -> Verifica se o parametro é um array.  (retorna true or false)
+
+array_key(array) -> Retorna todas as chaves de um array. 
+
+sort(array) -> Ordena um array e reajusta seus indices.
+
+asort(array) -> Ordena um array presevando os indices.
+
+count(array) -> Conta a quantidade de elementos de um array.
+
+array_merge(array) -> Funde um ou mais array.
+
+explode(array) -> Divide uma string baseada em um delimitador.
+
+implode(array) -> Junta elementos de um array em uma string
+
+
+
+ 
